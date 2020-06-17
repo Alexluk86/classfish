@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FishClass
 {
-    class Водоплавующие 
+    class Fish 
     {
         public double price { get; set; }
         public int mass { get; set; }
@@ -19,15 +19,3 @@ namespace FishClass
         }
     }
 
-
-    class Fish1 : Водоплавующие
-    
-    {
-        public string type { get; set; }
-
-        public virtual void GetFish1Info()
-        {
-            Console.WriteLine($"Имя: {name}| |Возраст: {age}| |Место: {place}| |Тип: {type}");
-        }
-    }
-}
