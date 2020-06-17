@@ -20,7 +20,7 @@ namespace FishClass
     }
 
 
-    class Fish1 : Tree
+    class Fish1 : Fish
     {
         public string type { get; set; }
 
