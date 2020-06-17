@@ -15,7 +15,7 @@ namespace FishClass
 
         public void GetFishInfo()
         {
-            Console.WriteLine($"Имя: {name}| |Возраст: {mass}| |Место: {place}|");
+            Console.WriteLine($"Имя: {name}| |Масса: {mass}| |Место: {place}|");
         }
     }
    class Dieout : Fish
@@ -24,7 +24,7 @@ namespace FishClass
         Categories of protected status { get; set; }
         public virtual void GetFish1Info()
         {
-            Console.WriteLine($"Имя: {name}| |Возраст: {age}| |Место: {place}| |Тип: {type}");
+            Console.WriteLine($"Имя: {name}| |Место: {place}| |Тип: {type}");
         }
     }
 } 
