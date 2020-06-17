@@ -21,7 +21,7 @@ namespace FishClass
    class Dieout : Fish
     {
         public string type { get; set; }
-
+        Categories of protected status { get; set; }
         public virtual void GetFish1Info()
         {
             Console.WriteLine($"Имя: {name}| |Возраст: {age}| |Место: {place}| |Тип: {type}");
