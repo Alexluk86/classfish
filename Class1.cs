@@ -18,4 +18,13 @@ namespace FishClass
             Console.WriteLine($"Имя: {name}| |Возраст: {mass}| |Место: {place}|");
         }
     }
+   class Dieout : Fish
+    {
+        public string type { get; set; }
 
+        public virtual void GetFish1Info()
+        {
+            Console.WriteLine($"Имя: {name}| |Возраст: {age}| |Место: {place}| |Тип: {type}");
+        }
+    }
+} 
