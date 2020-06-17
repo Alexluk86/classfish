@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FishClass
 {
-    class Fish
+    class Водоплавующие 
     {
         public double price { get; set; }
         public int mass { get; set; }
@@ -20,7 +20,8 @@ namespace FishClass
     }
 
 
-    class Fish1 : Fish
+    class Fish1 : Водоплавующие
+    
     {
         public string type { get; set; }
 
